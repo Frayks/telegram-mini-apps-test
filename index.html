@@ -8,6 +8,13 @@
   <script>
     eruda.init();
   </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const tg = window.Telegram.WebApp;
+        console.log("initDataUnsafe:", tg.initDataUnsafe);
+        console.log("Init Data:", tg.initData);
+    });
+  </script>
 </head>
 <body>
   Hello world!
